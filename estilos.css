@@ -1,0 +1,146 @@
+h1{color:purple;}
+
+p{
+    color:green;
+font-size: 1.4em;
+}
+
+#primer{color:blue;}
+#segundo{color:purple;}
+
+.subtitulo{color:salmon}
+
+
+body{
+
+    font-family: 'arial';
+    font-size: 1em;
+}
+
+#texto{
+    font-family: 'helvetica';
+    font-size: 1em;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+#menu{
+    
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul li{
+
+display: inline-block;
+
+}
+
+#menu ul li a{
+
+    color:white;
+    display:block;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #42b881;
+}
+
+
+.titulo{
+    padding: 10px;
+    float:left;
+}
+
+.contenido{
+    padding: 20px;
+}
+
+
+#selector ol{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+}
+
+#selector ol li a{
+    font-size: 0.9em;
+    color:black;
+    display:block;
+    padding: 15px 30px;
+    border-top-style:dotted;border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #999999;
+    width: 90%;
+    text-decoration: none;
+    
+}
+
+#selectorfin a{
+border-bottom: dotted;border-width: 1px;
+}
+
+#selector ol li a:hover{
+    background-color: #e6e6e6;
+    
+}
+
+#segmento summary{
+    color:green;
+    font-weight: 545;
+    display:block;
+    padding: 15px 30px;
+    border-top-style:solid;border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #c4c4c4;
+    width: 70%;
+    text-decoration: none;
+
+}
+
+
+
+#selector_caduco a{
+    background-color: #f59f9f;
+    }
+
+#selector ol li img{
+    vertical-align: middle; 
+}
+
+#selector ol li iframe{
+    vertical-align: middle; 
+}
+
+#directorio{
+background-color: white;
+text-align: left;
+border-collapse: collapse;
+width: 40%;
+}
+
+#directorio th, td{
+padding:8px;
+border: solid 1px rgb(180, 178, 178);
+}
+
+#directorio thead{
+    background-color:#F4F4F4;
+    color:black;
+}
+
+#directorio tr:hover{
+    background-color:#F8F8F8;
+}
