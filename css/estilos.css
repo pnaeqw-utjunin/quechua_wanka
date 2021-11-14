@@ -15,6 +15,7 @@ body{
 
     font-family: 'arial';
     font-size: 1em;
+    margin: 2em;
 }
 
 #texto{
@@ -103,15 +104,22 @@ border-bottom: dotted;border-width: 1px;
     font-weight: 545;
     display:block;
     padding: 15px 30px;
-    border-top-style:solid;border-width: 1px;
+    border-top-style:dotted;
+    border-width: 1px;
     border-right-style:none;
     border-left-style:none;
     border-color: #053f0f;
     width: 50%;
     text-decoration: none;
-
+    
 }
 
+
+#segmento summary:hover{
+    background-color: #e6e6e6;
+    
+
+}
 
 
 #selector_caduco a{
@@ -158,7 +166,9 @@ border: solid 1px rgb(180, 178, 178);
     border-color: #999999;
     width: 50%;
     text-decoration: none;
-    align-content: middle;
+    display: flex;
+    align-items: center;
+  
     
     
     
@@ -198,3 +208,10 @@ border: solid 1px rgb(180, 178, 178);
         padding: 0;
 
 }
+
+
+
+    
+
+
+
