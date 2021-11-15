@@ -15,7 +15,7 @@ body{
 
     font-family: 'arial';
     font-size: 1em;
-    margin: 2em;
+    margin: 1em;
 }
 
 #texto{
@@ -209,9 +209,16 @@ border: solid 1px rgb(180, 178, 178);
 
 }
 
+#audios  {
+float: right;
 
+}
 
-    
+#textos li {
+
+    float: left;
+    background-color: #053f0f;
+}
 
 
 
