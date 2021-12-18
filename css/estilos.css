@@ -238,6 +238,10 @@ float: right;
     display: none
     }
 
-#video {
-    align-content: 
-}
+#inferior{
+     
+    
+    display: flex;
+    align-items: flex-end;
+ 
+         }
