@@ -176,12 +176,28 @@ border-bottom: dotted;border-width: 1px;
 
 
 
+#selector_2 ol li {
+    font-size: 0.9em;
+    color:black;
+    display:block;
+    padding: 15px 15px;
+    border-top-style:dotted;border-width: 1px;
+    border-right-style:none;
+    border-left-style:none;
+    border-color: #999999;
+    width: 100%;
+    text-decoration: none;
+    
+    margin-left: 50px;
+  
+    
+    
+}
 
 
 
 
-
-#selector1 li {
+#selector1 li  {
     font-size: 0.9em;
     color:black;
     display:block;
@@ -204,6 +220,11 @@ border-bottom: dotted;border-width: 1px;
 }
 
 
+
+
+
+
+
 #segmentos summary{
     color:green;
     font-weight: 545;
@@ -221,3 +242,20 @@ border-bottom: dotted;border-width: 1px;
  
 }
 
+
+
+#tablita {
+    width: 50%;
+    border: 1px solid #000;
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(94, 93, 93);
+    border-collapse: collapse;
+    padding: 0.3em;
+ }
+ caption {
+    padding: 0.3em;
+ }
