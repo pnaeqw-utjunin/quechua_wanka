@@ -149,7 +149,8 @@ body{
 
     margin-left: 50px;
     width: 70%;
-    
+    line-height: 25px;
+    text-align: justify;
     
 }
 
