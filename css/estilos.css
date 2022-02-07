@@ -208,4 +208,31 @@ table {
     background: #eee;
  }
 
-  
+ #menu{
+    
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul li{
+
+display: inline-block;
+
+}
+
+#menu ul li a{
+
+    color:white;
+    display:block;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: #42b881;
