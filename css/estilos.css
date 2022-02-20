@@ -19,12 +19,16 @@ body{
     font-family: 'arial';
     font-size: 1em;
     
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 1em;
+    margin-right: 1em;
     margin-top: 1em;
 
 }
 
+.contenedor{
+    width: 950px;
+    margin:auto
+}
 
 #segmento summary{
     color:green;
