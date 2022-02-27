@@ -1,4 +1,4 @@
-h1{color:purple;}
+h1{color:rgb(255, 255, 255);}
 
 
 
@@ -19,16 +19,70 @@ body{
     font-family: 'arial';
     font-size: 1em;
     
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
+    margin:0;
 
 }
+
+header {
+
+    display:flex;
+    height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+a{
+text-decoration: none;
+color: white;
+
+}
+
+nav a{
+font-weight: 600;
+padding-right: 30px;
+
+}
+
+nav a:hover{
+color: white;
+
+}
+
 
 .contenedor{
     width: 950px;
     margin:auto
 }
+
+
+
+
+#segmento {
+
+    width: 100%;
+}
+
+#selector_2{
+
+    width: 100%;
+}
+
+#selector{
+
+    width: 100%;
+}
+
+
+#segmentos {
+    width: 100%;
+}
+
 
 #segmento summary{
     color:green;
@@ -40,15 +94,19 @@ body{
     border-right-style:none;
     border-left-style:none;
     border-color: #053f0f;
-    width: 100%;
+    
     text-decoration: none;
     display: flex;
     align-items: center;
         
 }
 
+
+
 #segmento summary:hover{
     background-color: #e6e6e6;
+    
+   
     
 }
 
@@ -65,7 +123,7 @@ body{
     border-right-style:none;
     border-left-style:none;
     border-color: #999999;
-    width: 100%;
+    
     text-decoration: none;
     margin-left: 0px;
     
@@ -83,12 +141,14 @@ body{
         margin: 0;
         padding: 0;
         
+        
 }
 
 #selector_a ol{
     list-style: none;
     margin: 0;
     padding: 0;
+    
     
 }
 
@@ -101,11 +161,11 @@ body{
     border-right-style:none;
     border-left-style:none;
     border-color: #999999;
-    width: 100%;
+    
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 0px;
     
   
   
@@ -115,6 +175,7 @@ body{
 
 #selector_a ol li a:hover{
     background-color: #e6e6e6;
+  
     
 }
 
@@ -139,7 +200,7 @@ body{
     text-decoration: none;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 0px;
   
     
     
@@ -155,7 +216,7 @@ body{
 #selector1 {
 
     margin-left: 50px;
-    width: 90%;
+    
     line-height: 25px;
     text-align: justify;
     
@@ -164,7 +225,19 @@ body{
 
 #selector2 {
 
+    
+    
+    line-height: 25px;
+    text-align: justify;
+    
+}
+
+
+#selector_color {
+
     background-color: #e3f4fa;
+    
+    
     
     
 }
@@ -179,13 +252,12 @@ body{
     border-right-style:none;
     border-left-style:none;
     
-    width: 95%;
+    
 
     margin: 0;
     padding: 0;
  
 }
-
 
 
 
