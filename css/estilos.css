@@ -111,6 +111,7 @@ color: white;
 }
 
 
+
 #selector_2 ol li {
     font-size: 0.9em;
     line-height: 25px;
@@ -222,6 +223,24 @@ color: white;
     
 }
 
+
+#selector1 a {
+
+    margin-left: 50px;
+    color:black;
+    line-height: 25px;
+    text-align: justify;
+    
+    
+}
+
+
+#selector1 li a:hover {
+
+    background-color: #e6e6e6;
+    
+    
+}
 
 #selector2 {
 
