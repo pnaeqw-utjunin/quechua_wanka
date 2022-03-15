@@ -112,6 +112,15 @@ color: white;
 
 
 
+
+
+
+
+
+
+
+
+
 #selector_2 ol li {
     font-size: 0.9em;
     line-height: 25px;
@@ -175,6 +184,7 @@ color: white;
 
 
 #selector_a ol li a:hover{
+
     background-color: #e6e6e6;
   
     
@@ -214,6 +224,11 @@ color: white;
 
 
 
+
+
+
+
+
 #selector1 {
 
     margin-left: 50px;
@@ -223,24 +238,31 @@ color: white;
     
 }
 
+#selector1 li a{
 
-#selector1 a {
-
-    margin-left: 50px;
+    font-size: 0.9em;
     color:black;
+    display:block;
+    width: 100%;
+    
+  
     line-height: 25px;
     text-align: justify;
     
-    
+}
+
+#selector1 li:hover {
+
+    background-color: #e3f4fa;
 }
 
 
-#selector1 li a:hover {
 
-    background-color: #e6e6e6;
-    
-    
-}
+
+
+
+
+
 
 #selector2 {
 
@@ -331,3 +353,4 @@ display: inline-block;
 
 #menu ul li a:hover{
     background-color: #42b881;
+}
