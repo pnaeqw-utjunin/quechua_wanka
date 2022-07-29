@@ -96,9 +96,10 @@ color: white;
 
     color:black;
     font-size: 0.9em;
-    padding: 0;
-    padding-left: 5px;
+    line-height: 5px;
 
+   
+    
 }
 
 #segundonivel li {
@@ -114,17 +115,30 @@ color: white;
     border-color: #053f0f;
     display: flex;
     align-items: center;
-    line-height: 25px;
+    
     text-align: justify;
-    width: 100%;
-    padding: 0px;
+    
+    padding: 5px;
+    
 
-    display: inline-block;
+}
+
+#segundonivel li a{
+
+    color:black;
+    font-size: 1em;
+    display:block;
+    width: 100%;
     
 
 }
 
 
+#segundonivel li a:hover{
+
+    background-color: #e6e6e6;
+
+}
 
 
 #tercernivel summary {
