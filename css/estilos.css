@@ -14,6 +14,10 @@ h1{color:rgb(255, 255, 255);}
 #sufijo_10{font-family:'arial';  font-size: 1em;  color:#5e5e5e}
 #sufijo_11{font-family:'arial';  font-size: 1em; font-weight: bold; color:#008080}
 
+
+
+#sufijo_23{font-family:'arial';  font-size: 1em; font-style: italic; color:green}
+
 body{
 
     font-family: 'arial';
@@ -389,16 +393,19 @@ color: white;
 
 table {
     width: 100%;
-    border: 1px solid #000;
+    border: 1px dotted rgb(185, 181, 181);
+    border-collapse:collapse;
  }
  th, td {
     width: 25%;
-    text-align: left;
-    vertical-align: top;
-    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px dotted rgb(185, 181, 181);
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: bottom;
+
+
  }
  caption {
     padding: 0.3em;
@@ -408,6 +415,9 @@ table {
  th {
     background: #eee;
  }
+
+
+
 
  #menu{
     
