@@ -65,7 +65,14 @@ color: white;
 }
 
 
+#texto li p{
 
+    color:#008080;
+    display: flex;
+    display:inline-block;
+    
+    
+    }
 
 
 
@@ -126,6 +133,8 @@ color: white;
     
 
 }
+
+
 
 #segundonivel li a{
 
@@ -398,7 +407,8 @@ table {
  }
  th, td {
     width: 25%;
-    text-align: center;
+    text-align: left;
+    line-height: 2;
     vertical-align: middle;
     border: 1px dotted rgb(185, 181, 181);
     border-collapse: collapse;
