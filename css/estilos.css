@@ -65,14 +65,20 @@ color: white;
 }
 
 
-#texto li p{
+#texto_1 {
 
-    color:#008080;
-    display: flex;
+    line-height: 2;
     display:inline-block;
+    text-decoration: none;
+   
     
+
     
-    }
+
+}
+
+
+
 
 
 
@@ -124,8 +130,9 @@ color: white;
     border-right-style:none;
     border-left-style:none;
     border-color: #053f0f;
-    display: flex;
-    align-items: center;
+    /*display: flex;
+    align-items: center;*/
+    
     
     text-align: justify;
     
@@ -140,7 +147,7 @@ color: white;
 
     color:black;
     font-size: 1em;
-    display:block;
+    /*display:block;*/
     width: 100%;
     
 
@@ -400,6 +407,8 @@ color: white;
 
 
 
+
+
 table {
     width: 100%;
     border: 1px dotted rgb(185, 181, 181);
@@ -425,6 +434,21 @@ table {
  th {
     background: #eee;
  }
+
+
+
+    table.tabla2 {
+        width: 100%;
+        border: 1px dotted rgb(185, 181, 181);
+        border-collapse:collapse;
+     }
+
+     th,td{
+        width:auto;
+     }
+     
+     
+
 
 
 
