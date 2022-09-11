@@ -72,12 +72,16 @@ color: white;
     text-decoration: none;
    
     
-
-    
-
 }
 
+#texto_2 {
 
+    color:rgb(153, 153, 153);
+    font-family: helvetica;
+    font-size: 1em;
+   
+    
+}
 
 
 
@@ -123,7 +127,7 @@ color: white;
 
     color:black;
     font-size: 0.9em;
-    
+    display:block;
     text-decoration: none;
     border-top-style:dotted;
     border-width: 1px;
@@ -139,6 +143,12 @@ color: white;
     padding: 5px;
     
 
+}
+
+#imagen_texto li{
+
+    display: flex;
+    align-items: center;
 }
 
 
